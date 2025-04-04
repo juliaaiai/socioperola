@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pérola Futebol Clube</title>
+    <script>
+        const socios = [
+            {
+                name: "João Silva",
+                socio_number: "0001",
+                statusText: "OK",
+                points: 120,
+                pix1m: "0001PIX1",
+                pix3m: "0001PIX3",
+                pix6m: "0001PIX6",
+                pix12m: "0001PIX12"
+            },
+            {
+                name: "Maria Souza",
+                socio_number: "0002",
+                statusText: "SB",
+                points: 95,
+                pix1m: "0002PIX1",
+                pix3m: "0002PIX3",
+                pix6m: "0002PIX6",
+                pix12m: "0002PIX12"
+            }
+        ];
+
+        function buscarSocio() {
+            const numero = document.getElementById("numero").value.trim();
+            const socio = socios.find(s => s.socio_number === numero);
+
+            const resultado = document.getElementById("resultado");
+            if (socio) {
+                resultado.innerHTML = `
+                    <h2>Nome do sócio: ${socio.name}</h2>
+                    <p><strong>Número:</strong> ${socio.socio_number}</p>
+                    <p><strong>Status de pagamento:</strong> ${socio.statusText}</p>
+                    <p><strong>Pontos (PTV):</strong> ${socio.points}</p>
+                    <h3>Pix para pagamento:</h3>
+                    <p>1 Mês: ${socio.pix1m}</p>
+                    <p>3 Meses: ${socio.pix3m}</p>
+                    <p>6 Meses: ${socio.pix6m}</p>
+                    <p>12 Meses: ${socio.pix12m}</p>
+                `;
+            } else {
+                resultado.innerHTML = "<p>Sócio não encontrado.</p>";
+            }
+        }
+    </script>
+</head>
+<body>
+    <h1>Pérola Futebol Clube</h1>
+    <p>Digite o número do sócio:</p>
+    <input type="text" id="numero" placeholder="Ex: 0001">
+    <button onclick="buscarSocio()">Buscar</button>
+    <div id="resultado" style="margin-top: 20px;"></div>
+</body>
+</html>

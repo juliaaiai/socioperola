@@ -1,0 +1,13 @@
+{
+  "type": "service_account",
+  "project_id": "socioperola",
+  "private_key_id": "658f9f07af4128e820d4f05a6733e343f2f25788",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvAIBADANBgkqhkiG9w0BAQEFAASCBKYwggSiAgEAAoIBAQCUAjhU2Ss6S978\nk1wtDLjwi65A++h7xmhkr4gyUGWiBnRAtN2P8gaNrINQ804aqJrlopQRM5bPG7tt\nRa3KUpY8V0/b9DfaN/DsM1qumYprV6guC0GY1L4D+rThed4+A/n9Xvn/N2pX4MBG\n6RtPXknt64yeMeLXhRUZjIo5cyATI8dUojZcYM4MtI3b3V52Yrqtx+xPlnejIzgw\nEUiXPozsTZMO4ohLoUiFsXYr5VLvTLON6UTbybYtfwX2MQ5OM07+qdGvnKqnnU2T\nqvpF4FHFkSaH4c+Ptl4eJfkXDQBdNqvXC2W5OnCftDcl4BHL3xnYVhZexysIu59V\n28N3RgzxAgMBAAECggEACebydFtu0jC4cNmosXs4AKCOY7AcJXMd0bCnB3C2tVCX\nugAvu5KTwCo8wy9yoq4e5i1KmTJZolkRYMs9iDtJbFeOEvc46QtUPcU7dFIhlIgR\n4HoQeoRZ2G556ATigBp9gOdNXqG15mkLDCN1LYnvdHC4IMRR0B1J+a0xTox70Uk5\n3xACaT+Ja/lrYHUqPHJ3W9NU+RNxDEYQC2BNFQlOAjbvSjcJ86BmRNmugjWCD+qN\nNMnRxWADPsThZmeBg92MX0NALealBbSLgqdm/LfrKAu+W3t70VxeHLCRlgzjMs38\ns8fvFXEx3J4aagwMvYpraEvHAFa3hcsYMkmos2t9zQKBgQDGC+9H6zHQEtNk2aCB\n+5aXruw0YusG7AqZjCi1jC3UEyvEpOWV4RjbLz4kW0TmjYnQfk5PRjBXkjdo4zDs\nmitnwdxKgOFFDQxydAb30S0l9gfS/LwCSikYeCK2ahQHSXAWg1+sAyKX122xKFXb\nn3VxgM8T8vBSeGoRMZH1RVpJRQKBgQC/Udfn+HQJ5p8NGPUUFg8wscbwlsiO4jBI\nGwBdSeBP77ndGWQK7wK2uXtF8w3fTilAKF1QfYg+3ygEQ+jTWfJaxBns2Add70pR\nRX1ob2viQDLlU3dPqZYKlRqsAK0EZxjLujB5jAnnZkzgPLxLk5iyGqsR7QBkHwhL\npsGa8lTxvQKBgAbm65PqEnZZ8ZwWKY3eIsVuhzTcLay0FTp8s/5/wCkf8eqMhKPQ\nkHkzEEtcEu6mCCOIA1qn649hvSSeplnYlaKsEu1VyIQLjF+Aw61nUNd914/21uaN\nhxkfNrZ8w+3tFUbzlSX9hfscuuntqfBZglJOVukvEkkNgUTQIXIW1KqxAoGAWfOD\n/Ke+/wy0STcru0bn23AqZeGu6CcGplAzqqjaUxsWGxMeC1n2v6yTff7Zzdz03hpc\nTUTIMy8+pEq9g+ltXimHOukTBaJFIdL3NIv2gEjI5TOKDCViyxTxll82+bPzX43p\nzqv92BMsH93OdgYuK8cIGYSBw5EnmFIOAuje8U0CgYA5cItsr3+nIMwaixyImG1a\nawuW5Zy/bXzNixASBZri85pA1L3JCeOANdxpHxqmHZfQu265f66Mcfo7dHKuGipN\nA7IXLyh5gqwJfLeiLL7dnlcUI8/omChH/dfA3gsbMiIwqOy+93YWJigPxkZ9moKh\n+d11Niw+Am78unQlMF3s+w==\n-----END PRIVATE KEY-----\n",
+  "client_email": "socioperola@socioperola.iam.gserviceaccount.com",
+  "client_id": "117341536325744067477",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/socioperola%40socioperola.iam.gserviceaccount.com",
+  "universe_domain": "googleapis.com"
+}
